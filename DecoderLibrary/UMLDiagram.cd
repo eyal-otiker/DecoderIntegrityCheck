@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DecoderLibrary.FrameOptionsNumberCalculation">
+    <Position X="4.75" Y="3.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAAAAAAAAAEBAAAAAAAAIAAAAAAAQAAA=</HashCode>
+      <FileName>CalculationClasses\FrameOptionsNumberCalculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.TimeCheckCalculation">
+    <Position X="5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAQAABAAAAAAAAAAAAAAAAAgAAIAAQAAAAAAEA=</HashCode>
+      <FileName>CalculationClasses\TimeCheckCalculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.ClientDecoderDetail">
+    <Position X="0.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\ClientDecoderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.CompriasionBlockItem&lt;IcdDataType, GetParametersType&gt;">
+    <Position X="0.5" Y="6.5" Width="4" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIAAAUAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\CompriasionBlockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.FiberBoxItem">
+    <Position X="6.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAACAgQAQAAAAAABAAigSAEAAEQGAQAAAAAA=</HashCode>
+      <FileName>DataClasses\FiberBoxItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.FlightBoxItem">
+    <Position X="4.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAAAAAAGAIAAAQAAAAAAAAAAACAQAAAAAA=</HashCode>
+      <FileName>DataClasses\FlightBoxItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.PullerBlockItem&lt;IcdDataType, GetParametersType, EncoderType, DecoderType&gt;">
+    <Position X="4.75" Y="6.5" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAFAAAIAAAQEABAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\PullerBlockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.SummaryAlertCollectionItem">
+    <Position X="8.25" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IACCIBAAEEAAAAAABAAAEAECACAUAgAAAUAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\SummaryAlertCollectionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.FiberBoxItemParameters" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAFAAAAAAAAAgAAAAABEAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>DataClassesParameters\FiberBoxItemParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.FlightBoxItemParameters" BaseTypeListCollapsed="true">
+    <Position X="6" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAFAAAAAAAAAgAAAAABEAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>DataClassesParameters\FlightBoxItemParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.FiberBoxDecoder" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAACCAAIAAAAAEAAAAA=</HashCode>
+      <FileName>DecoderClasses\DecodingIcdTypes\FiberBoxDecoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.FlightBoxDecoder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DecoderClasses\DecodingIcdTypes\FlightBoxDecoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.RawMessageDecoder&lt;IcdDataType, GetPrametersType, EncoderType, DecoderType&gt;">
+    <Position X="4.5" Y="17" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAgAACABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DecoderClasses\RawMessageDecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.TelemetryDataProcessing&lt;IcdDataType, GetParametersType, EncoderType, DecoderType&gt;">
+    <Position X="0.5" Y="21.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AACBABAAAAAAAEAAAAAAAAAABAAFEwAAAAAgRAAAAAA=</HashCode>
+      <FileName>DecoderClasses\TelemetryDataProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.RunningClientDecoder">
+    <Position X="0.5" Y="45.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAQAAAAAAA=</HashCode>
+      <FileName>DllClasses\RunningClientDecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.FiberBoxEncoder" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="29.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>EncoderClasses (Simulator)\EncodingIcdTypes\FiberBoxEncoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.FlightBoxEncoder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="29.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>EncoderClasses (Simulator)\EncodingIcdTypes\FlightBoxEncoder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.IcdItemEncoder&lt;IcdDataType, GetParametersType, EncoderType&gt;">
+    <Position X="3" Y="25.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>QCgAAAhBAAAAgAAAAAAhhAAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>EncoderClasses (Simulator)\IcdItemEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.ConvertingClass">
+    <Position X="0.5" Y="41.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ConvertingClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.DecoderCheckManager">
+    <Position X="4.75" Y="41.75" Width="5.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AiEACLYAAAAAAAAAgCCAAAAIAggAgQAAAA4QAIgATEE=</HashCode>
+      <FileName>DecoderCheckManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.CreatingSetsForCheck&lt;IcdDataType, GetParametersType&gt;">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAACAAAFBAAAQABAgAAAAAAAICQAAAEAAE=</HashCode>
+      <FileName>CalculationClasses\CreatingSetsForCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.JsonToIcdItemConverter&lt;IcdDataType, GetParametersType&gt;">
+    <Position X="0.5" Y="43.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAGAAAAAAAAAAACAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ConverterClass\JsonToIcdItemConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.UserData">
+    <Position X="2.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAAAAAAgAAACAQAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.SummaryAlertCollectionFiltering">
+    <Position X="5.75" Y="38" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAAAEAgKAAAAAAAAABAACAAAAAGACAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\DecoderCheck\SummaryAlertCollectionFiltering.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.SummaryAlertCollectionSaving">
+    <Position X="3" Y="38" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAgAAAAQAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\DecoderCheck\SummaryAlertCollectionSaving.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.HashingClass">
+    <Position X="7.25" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAIAAAAAIAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MongoDBClasses\UsersData\HashingClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.UsersCRUD">
+    <Position X="0.5" Y="38" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAIAAAAAAAgAAAAAAAAAAAAAAAAgAAARAAAGAAA=</HashCode>
+      <FileName>MongoDBClasses\UsersData\UsersCRUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.DatabaseContext" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\DatabaseContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.MongoDbRepository&lt;T&gt;">
+    <Position X="2.75" Y="32.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\MongoDbRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecoderLibrary.SummaryAlertCollectionRepository">
+    <Position X="0.5" Y="34.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>MongoDBClasses\SummaryAlertCollectionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DecoderLibrary.UsersDataRepository">
+    <Position X="4.25" Y="34.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>MongoDBClasses\UsersDataRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DecoderLibrary.IIcdItemParameters&lt;DataType&gt;">
+    <Position X="0.5" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAFAAAAAAAAAgAAAAABEAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>DataClassesParameters\IIcdItemParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DecoderLibrary.IRawMessageDecoder&lt;IcdDataType, EncoderType&gt;">
+    <Position X="0.5" Y="17" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DecoderClasses\IRawMessageDecoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DecoderLibrary.IIcdItemEncoder&lt;DataType&gt;">
+    <Position X="0.5" Y="25.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>EncoderClasses (Simulator)\IIcdItemEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DecoderLibrary.IDatabaseContext">
+    <Position X="7.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\DatabaseContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DecoderLibrary.ISummaryAlertCollectionRepository">
+    <Position X="0.5" Y="36.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>MongoDBClasses\SummaryAlertCollectionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DecoderLibrary.IUserDataRepository">
+    <Position X="3.75" Y="36.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>MongoDBClasses\UsersDataRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DecoderLibrary.NativeCheck">
+    <Position X="2.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAkAAA=</HashCode>
+      <FileName>CalculationClasses\FrameOptionsNumberCalculation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DecoderLibrary.DataLink">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\ClientDecoderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DecoderLibrary.GetDataOptions">
+    <Position X="6.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAgAAAAAABCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MongoDBClasses\DecoderCheck\SummaryAlertCollectionFiltering.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DecoderLibrary.Permission">
+    <Position X="4.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataClasses\UserData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

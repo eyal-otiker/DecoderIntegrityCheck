@@ -1,0 +1,6 @@
+{
+  "DecoderName": "FlightBoxDecoder",
+  "DataLink": "UpLink",
+  "Version":  "2.0.0",
+  "DecoderWritingDate": "23-04-2023"
+}
